@@ -4,6 +4,9 @@
     margin: 0;
     font-family: sans-serif;
 }
+body {
+    overflow-x: hidden;
+}
 .container {
     clip-path: polygon(0 0, 100% 0, 100% 26%, 0 80%);
     z-index: -1;
@@ -41,4 +44,15 @@ nav .brand a {
 }
 nav .brand span {
     color: #0ccf74;
+}
+
+/* shop */
+.shop {
+    position: relative;
+    top:-500px;
+    left:400px;
+
+}
+.shop img {
+   width:30%;
 }
