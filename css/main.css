@@ -146,3 +146,18 @@ span {
     font-size: 13px;
     padding: 3px;
 }
+
+@media (max-width: 600px) {
+    .contact-info  {
+        flex-direction: column;
+    }
+    .cv {
+        flex-direction: column;
+    }
+    .main-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    
+}
