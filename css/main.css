@@ -12,13 +12,13 @@ body {
     z-index: -1;
     background: #fff;
     width: 70%;
-   padding: 10px 0 10px 0;
+   padding: 10px 0 0 0;
    margin: 0 auto;
 }
 nav {
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 nav ul {
     display: flex;
@@ -110,3 +110,39 @@ span {
     
 }
 
+.contact-info {
+    display: flex;
+    background: rgb(238, 238, 238);
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 35px;
+}
+.contact-info .contact {
+    display: flex;
+}
+.contact-info .contact img {
+    margin-right: 10px;
+}
+
+
+/* main info */
+.main-info {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.profile {
+    line-height: 1.4;
+    margin-top: 50px;
+}
+.profile h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #0ccf74;
+    margin-bottom: 20px;
+}
+.profile ul li {
+    font-size: 13px;
+    padding: 3px;
+}
