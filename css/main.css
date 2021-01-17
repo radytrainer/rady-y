@@ -147,6 +147,9 @@ span {
     padding: 3px;
 }
 
+.bottom {
+    margin-bottom: 30px;
+}
 @media (max-width: 600px) {
     .contact-info  {
         flex-direction: column;
@@ -158,6 +161,9 @@ span {
     .sidebar {
         width: 100%;
     }
+    .container {
+        width: 100%;
+    }
 
-    
+
 }
