@@ -86,8 +86,12 @@ span {
     font-weight: bold;
     font-size: 14px;
     margin-top: 15px;
+    margin-bottom: 5px;
     display: flex;
     
+}
+.header-title-sb .skills {
+    margin-bottom: 15px;
 }
 .header-title-sb .letter img {
     margin: 0;
