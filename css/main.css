@@ -6,14 +6,14 @@
 }
 body {
     overflow-x: hidden;
+    background: #cfcfcf;
 }
 .container {
-    clip-path: polygon(0 0, 100% 0, 100% 26%, 0 80%);
     z-index: -1;
-    background: #d9dadb;
-    height: 100vh;
-    width: 100%;
-   padding: 10px;
+    background: #fff;
+    width: 70%;
+   padding: 10px 0 10px 0;
+   margin: 0 auto;
 }
 nav {
     display: flex;
@@ -42,17 +42,71 @@ nav .brand a {
     text-decoration: none;
     color: #003;
 }
-nav .brand span {
+span {
     color: #0ccf74;
 }
 
-/* shop */
-.shop {
-    position: relative;
-    top:-500px;
-    left:400px;
 
+/* CV */
+.cv {
+    width: 100%;
+    margin: 0 auto;
+    
+    display: flex;
 }
-.shop img {
-   width:30%;
+
+
+/* sidebar */
+.sidebar {
+    width: 30%;
+    background: rgb(228, 227, 227);
 }
+
+.sidebar .names {
+    background: #000;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: center;
+}
+
+
+
+.sidebar .header-title-sb {
+    padding: 10px 0 10px 10px;
+    line-height: 1.4;
+}
+.header-title-sb h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #0ccf74;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+.header-title-sb .letter {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    display: flex;
+    
+}
+.header-title-sb .letter img {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.header-title-sb .sb {
+    opacity: 0.7;
+}
+
+.header-title-sb .lg {
+    font-weight: normal;
+}
+
+/* Content */
+.main-content {
+    width: 70%;
+    
+}
+
